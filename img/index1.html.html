@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmine Fragrance | jasmineFragrance.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:600)"   href="css/phone1.css">
+</head>
+<style>
+    #navbar {
+        display: flex;
+        align-items: center;
+    }
+
+    #logo {
+        margin: 10px 15px;
+    }
+
+    #logo img {
+        height: 56px;
+        margin: 3px 5px;
+    }
+
+    #navbar {
+        position: relative;
+    }
+
+    ul {
+        display: flex;
+        font-family: 'Bree Serif', serif;
+    }
+
+    #navbar::before {
+        content: " ";
+        background-color: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: .4;
+    }
+
+    li {
+        /* color: white; */
+        list-style: none;
+        font-size: 1.3rem;
+    }
+
+    li a {
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+    }
+
+    li a:hover {
+        color: black;
+        background-color: white;
+    }
+
+    /* home section */
+    #home {
+        display: flex;
+        flex-direction: column;
+        padding: 3px 200px;
+        height: 730px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home::before {
+        content: " ";
+        background-image: url(logo8.jpg.png);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.89;
+    }
+
+    #home h1 {
+        color: white;
+        text-align: center;
+    }
+
+    #home h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Bree Serif', serif;
+    }
+
+    #home p {
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .h-primary {
+        font-size: 2.8rem;
+        padding: 12px;
+    }
+
+    .h-secondary {
+        font-size: 2.8rem;
+        padding: 12px;
+    }
+
+    .btn {
+        padding: 6px 20px;
+        border: 2px solid white;
+        background-color: skyblue;
+        margin: 45px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    #product {
+        display: flex;
+        
+    }
+    
+
+    #product.box {
+        border: 2px red;
+        padding: 34px;
+        margin: 3px 6px;
+
+    }
+
+    #product.box img {
+        height: 160px;
+        margin: auto;
+        display: block;
+
+    }
+
+    #product {}
+
+    #product {}
+
+    /* .btn :hover{ */
+    /* color: white; */
+    /* background-color: skyblue; */
+    /* } */
+</style>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo5.png.png" alt="JasmineFragrance.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Product</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+            <!-- <li class="item"><a></a></li> -->
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">welcome to our premium product</h1>
+        <p>we provide premiun fragrance product after consuming cannabis, you may like our product if you also became
+            'bhand' after consumimg, this is our side business actually we also provide cannabis</p>
+        <button class="btn">order now</button>
+    </section>
+    <section class="product-container">
+        <h1 class="h-secondary center">our product</h1>
+        <div id="product">
+            <div class="box">
+                <img src="download1.jpg" alt="">
+                <h2 class="h-secondary">product</h2>
+                <p class="center">free me ganja pane ke liye perfume order kare, nhi to m** ch***ye</p>
+                </divdiv class="box">
+                <img src="download1.jpg" alt="">
+                <h2 class="h-secondary">product</h2>
+                <p class="center">free me ganja pane ke liye perfume order kare, nhi to m** ch***ye</p>
+                </divdiv class="box">
+                <img src="download1.jpg" alt="">
+                <h2 class="h-secondary">product</h2>
+                <p class="center">free me ganja pane ke liye perfume order kare, nhi to m** ch***ye</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
